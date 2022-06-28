@@ -32,4 +32,4 @@ Se creo un security group solo que permite el trafico hacia el puerto 443 en el 
 
 
 ### Diagrama de infraestructura
-![Diagrama] (cloud_oblic_2022.jpg)
+![Diagrama](cloud_oblic_2022.jpg)
