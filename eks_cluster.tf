@@ -26,11 +26,6 @@ resource "aws_eks_cluster" "eks-boutique-ae" {
    min_size   = 1
   }
  
-#   depends_on = [
-#    aws_iam_role_policy_attachment.AmazonEKSWorkerNodePolicy,
-#    aws_iam_role_policy_attachment.AmazonEKS_CNI_Policy,
-#    #aws_iam_role_policy_attachment.AmazonEC2ContainerRegistryReadOnly,
-#   ]
  }
 
   

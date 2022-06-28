@@ -33,3 +33,20 @@ Se creo un security group solo que permite el trafico hacia el puerto 443 en el 
 
 ### Diagrama de infraestructura
 ![Diagrama](cloud_oblig_2022.jpg)
+
+
+### Como ejecutar automatizmo para crear infra y desplegar app
+
+Consideraciones: 
+* Actualizar credenciales en .aws/credentials (importante que tenga el nombre default)
+* Validar el ARN del "labrole" 
+* Estar parado en la carpeta del repositorio
+* Tener comando terraform instalado
+* Tener comando kubectl instalado
+* Tener comando aws instalado
+
+Luego con estas consideraciones validadas procedemos a ejecutar el script deploy_cluster.sh, el mismo desplegara la infra y dejara disponible la aplicacion.
+Ejecutamos de la siguiente manera:
+sh deploy_cluster.sh
+
+Ya con el script ejecutado sin errores para conseguir la url del servicio ejecutamos kubectl get services y ya veremos la url.
